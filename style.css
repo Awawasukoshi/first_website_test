@@ -1,0 +1,194 @@
+body {
+    background-color: #FFEEA0;
+    color: #FFEEA0
+}
+
+
+h1 {
+    font-size: 3rem;
+    color: #773B00;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #773B00;
+    text-align: center;
+
+}
+
+h3 {
+  color: #773B00;
+  text-align: center;
+
+}
+
+
+
+.para1 {
+    color: #773B00;
+}
+
+.para2 {
+    color: #773B00;
+}
+
+/* .para3 {
+    color: darkorchid;
+} */
+
+/* .jump1 {
+    color: blueviolet;
+} */
+/* .name for a Class */
+.pics {
+    display: flex;
+    justify-content: center;
+    height: 450px;
+}
+/* # for an ID */
+
+
+a:hover {
+    background-color: #ADB6C4;
+}
+
+.navbar {
+    
+    /* background-color: #FFEEA0; */
+    /* background-color: aqua; */
+    text-decoration: none;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar a {
+    color: #773B00;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.alignleft {
+    text-decoration: none;
+    /* border: red 2px solid; */
+    display: flex;
+    font-size: 16px;
+    width: 18%;
+    justify-content: space-between;
+    color: #773B00;
+
+}
+
+.alignright {
+    text-decoration: none;
+    /* border: green 2px solid; */
+    display: flex;
+    font-size: 16px;
+    width: 32%;
+    justify-content: space-around;
+    color: #773B00;
+
+}
+
+/* --------Images rounded edges-------- */
+
+img {
+  border-radius: 8px;
+}
+
+/* --------Drinks and Pastries Menu-------- */
+
+
+.mainflex-container {
+    display: flex;
+    /* background: aqua; */
+    flex-direction: row;
+    height: 400px;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    /* align-items: stretch; */
+    justify-content: space-around;
+  }
+
+  .column {
+    display: flex;
+    /* background: blueviolet; */
+    flex-direction: column;
+    align-self: center;
+    max-height: 100%;
+    max-width: 50%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .description {
+    color: #773B00;
+    font-size: 1em;
+    justify-content: space-around;
+  }
+
+  .price {
+    color: #773B00;
+    font-size: 1em;
+    justify-content: space-around;
+  }
+
+/* ----Footer---- */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2A2B2E;
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+  }
+
+
+/* ----Squared Style---- */
+/* .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  } */
+
+  /* ----Round Style---- */
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .fa-facebook {
+    background: #5a5a66;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #5a5a66;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #5a5a66;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #5a5a66;
+    color: white;
+  }
